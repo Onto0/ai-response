@@ -1,24 +1,24 @@
 # Discord Typing Bot (GPT-2 Powered)
 
-This script generates random, often ridiculous responses using GPT-2 and simulates typing them out in Discord or any text input field. If you're here, you probably know what you're doing—or you’re about to learn the hard way.
-
-## What This Does
-- Generates text with GPT-2 (Hugging Face).
-- Types it out character by character, simulating real typing.
-- Automatically presses Enter to send messages.
-- Repeats for a fixed number of messages to build a chaotic story.
+This script generates text using GPT-2 and types it out in Discord or any text field by simulating keyboard inputs. The goal? Send ridiculous AI-generated messages automatically.
 
 ---
 
-## Dependencies (Figure It Out Yourself)
-You're going to need a few things installed. I won't walk you through it.
+## What This Does
+- Uses GPT-2 to generate random text.  
+- Simulates typing with `pynput`.  
+- Automatically sends messages by pressing Enter.  
+- Builds on the previous message to create longer, chaotic stories.  
 
-- **Python 3.8+** – If you don’t have Python, go get it.
-- **transformers** – By Hugging Face. It’s how you load GPT-2.
-- **torch** – PyTorch. GPT-2 won’t work without it.
-- **pynput** – This lets the script simulate key presses.
+---
 
-### Install the Requirements
-If you actually need help:
+## Dependencies (Handle It Yourself)
+You'll need these installed:  
+- **Python 3.8+**  
+- **transformers** – Loads GPT-2 from Hugging Face.  
+- **torch** – Required for GPT-2 to function.  
+- **pynput** – Simulates keyboard input.  
+
+Install with:  
 ```bash
 pip install transformers torch pynput
