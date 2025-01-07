@@ -1,4 +1,5 @@
 # Discord Typing Bot (GPT-2 Powered)
+# **I WILL NOT HELP YOU WITH ANYTHING**
 
 This script generates text using GPT-2 and types it out in Discord or any text field by simulating keyboard inputs. The goal? Send ridiculous AI-generated messages automatically.
 
@@ -12,7 +13,7 @@ This script generates text using GPT-2 and types it out in Discord or any text f
 
 ---
 
-## Dependencies (Handle It Yourself)
+## Dependencies
 You'll need these installed:  
 - **Python 3.8+**  
 - **transformers** – Loads GPT-2 from Hugging Face.  
