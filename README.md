@@ -1,5 +1,5 @@
 # Discord Typing Bot (GPT-2 Powered)
-# **I WILL NOT HELP YOU WITH ANYTHING**
+ **I WILL NOT HELP YOU WITH ANYTHING**
 
 This script generates text using GPT-2 and types it out in Discord or any text field by simulating keyboard inputs. The goal? Send ridiculous AI-generated messages automatically.
 
