@@ -15,7 +15,7 @@ This script generates text using GPT-2 and types it out in any text field you ar
 
 
 # If installing EXE
-  - ## No things except exe file needed
+  - **No things except exe file needed**
 
 # If using source code
   - ## Dependencies
