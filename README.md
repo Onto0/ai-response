@@ -13,12 +13,17 @@ This script generates text using GPT-2 and types it out in any text field you ar
 
 ---
 
-## Dependencies
-You'll need these installed:  
-- **Python 3.8+**  
-- **transformers** – Loads GPT-2 from Hugging Face.  
-- **torch** – Required for GPT-2 to function.  
-- **pynput** – Simulates keyboard input.  
+
+# If installing EXE
+  - ## No things except exe file needed
+
+# If using source code
+  - ## Dependencies
+    You'll need these installed:  
+    - **Python 3.8+**  
+    - **transformers** – Loads GPT-2 from Hugging Face.  
+    - **torch** – Required for GPT-2 to function.  
+    - **pynput** – Simulates keyboard input.  
 
 Install with:  
 ```bash
