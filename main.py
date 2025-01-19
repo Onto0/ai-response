@@ -1,7 +1,7 @@
 import random
 import time
 from pynput.keyboard import Controller, Key
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import GPT2LMHeadModel, GPT2Tokenizer, AutoModelForCausalLM, AutoTokenizer
 
 keyboard = Controller()
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
@@ -19,6 +19,7 @@ def ridiculous_response(prompt):
         no_repeat_ngram_size=2,
         temperature=0.7,
         do_sample=True,
+        max_length = 1024,
         pad_token_id=tokenizer.eos_token_id,
         max_new_tokens=100  # Prioritize this over max_length
     )

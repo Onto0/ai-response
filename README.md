@@ -1,6 +1,9 @@
 # Typing Bot (GPT-2 Powered)
 ## **I WILL NOT GUARANTEE ANY HELP WITH THIS IF YOU HAVE PROBLEMS**
 
+Another warning this AI has no filter and can be offensive 😁
+it is sometimes crashes out also
+
 This script generates text using GPT-2 and types it out in any text field you are selected on by simulating keyboard inputs. The goal? Send ridiculous AI-generated messages automatically.
 
 ---
